@@ -36,8 +36,8 @@
 
 
 import React from 'react';
-import Head from 'next/head';
-import Homepage from './Homepage';
+//import Head from 'next/head';
+//import Homepage from './Homepage';
 
 const Home: React.FC = () => {
   return (<div>

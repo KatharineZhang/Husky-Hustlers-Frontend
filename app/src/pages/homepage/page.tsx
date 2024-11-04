@@ -1,7 +1,7 @@
 'use client'
 
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
+//import Navbar from '../components/Navbar';
 
 type HomepageState = {
   listOfSellers: string | null;
@@ -20,8 +20,7 @@ export class Homepage extends Component<unknown, HomepageState> {
   render () {
     return (
       <div>
-        <Navbar />
-        <h1>Homepage</h1>
+        <h1>Homepage Works</h1>
       </div>
       
     );
